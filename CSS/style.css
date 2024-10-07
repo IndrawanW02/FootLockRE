@@ -146,7 +146,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.6) url(/SRC-IMG/banner.jpg);
+  background: rgba(0, 0, 0, 0.6) url(../SRC-IMG/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
