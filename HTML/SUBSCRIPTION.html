@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOTLOCKRE.</title>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+
+    <!-- Family-Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Playfair&family=Poppins:wght@200;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../CSS/style.css">
+
+    <!-- javascript -->
+    <script src="../JAVASCRIPT/script.js" defer></script>
+</head>
+
+<body>
+    <nav class="nav-container">
+        <h1 id="logo">FOOTLOCK<span>re</span>.</h1>
+
+        <div class="navigation">
+            <a href="HOME.html">Home</a>
+            <a href="SHOES.html">Shoes</a>
+            <a href="ABOUT_US.html">About Us</a>
+            <a href="EVENTS.html">Events</a>
+            <a href="SUBSCRIPTION.html" id="subscribe">Subscribe</a>
+        </div>
+
+        <div class="hamburger-menu">
+            <span class="lines"></span>
+            <span class="lines"></span>
+            <span class="lines"></span>
+        </div>
+    </nav>
+
+    <div class="subscription">
+        <div class="subscription-card">
+            <div class="subscription-detail">
+                <h1>BENEFITS</h1>
+
+                <div class="benefit_box">
+                    <i data-feather="check"></i>
+                    <h2>Exclusive Discounts</h2>
+                </div>
+                <div class="benefit_box">
+                    <i data-feather="check"></i>
+                    <h2>Easy Order Tracking</h2>
+                </div>
+                <div class="benefit_box">
+                    <i data-feather="check"></i>
+                    <h2>Raffles and Giveaways</h2>
+                </div>
+                <div class="benefit_box">
+                    <i data-feather="check"></i>
+                    <h2>Early Access to Sales</h2>
+                </div>
+            </div>
+
+            <form id="form" action="/">
+                <h1>Registration</h1>
+                <div class="input-control">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="phoneNumber">Phone number</label>
+                    <input id="phoneNumber" name="phoneNumber" type="number">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="none">Select</option>
+                        <option value="">Indonesia</option>
+                        <option value="">Malaysia</option>
+                        <option value="">Singapore</option>
+                        <option value="">Thailand</option>
+                        <option value="">Philippines</option>
+                        <option value="">Brunei Darussalam</option>
+                        <option value="">Vietnam</option>
+                        <option value="">Laos</option>
+                        <option value="">Myanmar</option>
+                        <option value="">Cambodia</option>
+                        <option value="">Timor Leste</option>
+                    </select>
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <input id="terms" name="terms" type="checkbox">
+                    <label for="terms">I Agree with the terms & conditions</label>
+                </div>
+                <div class="input-control">
+                    <div id="errX" class="error"></div>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-media">
+            <a href="#instagram"><i data-feather="instagram"></i></a>
+            <a href="#twitter"><i data-feather="twitter"></i></a>
+            <a href="#facebook"><i data-feather="facebook"></i></a>
+        </div>
+
+        <div class="link">
+            <a href="HOME.html">Home</a>
+            <a href="SHOES.html">Shoes</a>
+            <a href="ABOUT_US.html">About Us</a>
+            <a href="EVENTS.html">Events</a>
+            <a href="SUBSCRIPTION.html">Subscribe</a>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy;2023 FOOTLOCKre. Design By Indrawan Wijaya</p>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>
